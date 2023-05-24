@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio | Jhonny</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Jhonny</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                    <li><a href="#colegas" onclick="seleccionar()">COLEGAS</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/hero-img5.png" alt="">
+            </div>
+            <h1>Jhonny</h1>
+            <h2>Ingeniero de Transportes</h2>
+            <div class="redes">
+                <a href="https://web.facebook.com/jhonnyterronesguerrero" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/jhonny30_t/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.link/3kl03w" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Jhonny Terrones.</span> Transport Engineer.I am passionate about the world of engineering and have a strong commitment to excellence and innovation in my field. In our company, innovation and excellence intertwine to create a lasting legacy in the business world, pushing boundaries and leading the way towards a prosperous and sustainable future.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            04-11-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            947-470-756
+                        </li>
+                        <li>
+                            <strong>Hotmail</strong>
+                            JhonnyTG_30@hotmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.Jhonny.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Lima_Breña
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Universitario</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>WINDOWS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                <a href="pdf/CURRICULUM  VITAE-JIMMY JOSE--1.pdf" class="btn" target="_blank">Descargar CV</a> <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Autocad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Excel</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>40%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Word</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>60%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diciplina</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Liderazgo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Transporte Aéreo</h4>
+                        <span class="casa">Universidad Nacional Federico Villa Real</span>
+                        <span class="fecha">2023 - 2026</span>
+                        <p>What has been learned about air transport is the importance of security and the implementation of rigorous protocols to guarantee it. Over the years, international standards have been developed and refined to maintain flight safety. This includes the implementation of comprehensive security controls at airports, the training and certification of pilots and crew, and the continuous improvement of aircraft systems and technologies to minimize risks. These efforts have contributed to making air transport one of the safest modes of transportation in the world.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Transporte Marítimo</h4>
+                        <span class="casa">Universidad Nacional Federico Villa Real</span>
+                        <span class="fecha">2023 - 2026</span>
+                        <p>What has been learned about shipping is the importance of efficiency and route optimization. As more advanced navigation techniques have been developed and technologies such as global positioning systems (GPS) have been implemented, the ability to chart optimal sea routes has improved. This has allowed shipping companies to minimize transit times and operating costs by selecting the shortest and most efficient routes, avoiding areas with adverse weather conditions or traffic congestion.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Transporte en la Minería</h4>
+                        <span class="casa">Universidad Nacional Federico Villa Real</span>
+                        <span class="fecha">2023 - 2026</span>
+                        <p>What I learned is that careful route planning, selection of the right transportation equipment, and efficient supply chain management are critical to minimizing costs and maximizing productivity. In addition, the implementation of advanced technologies, such as satellite positioning systems (GPS) and telematics, has enabled real-time tracking and monitoring of vehicles and cargo, which improves visibility and decision-making.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Redes</h4>
+                        <span class="casa">Optical Services Perú SAC</span>
+                        <span class="fecha">2022 - 2026</span>
+                        <p>I was in charge of the design, deployment and maintenance of network infrastructures, ensuring reliable and high-speed connectivity. I participated in fiber optic network implementation projects, optimized the configuration of network equipment and collaborated in the successful launch of new services. My ability to solve problems, work as a team and keep up to date with telecommunications technologies was key to achieving satisfactory results and providing a quality experience to users.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Proceso Industrial del Agua</h4>
+                        <span class="casa">Agua Fridam SAC</span>
+                        <span class="fecha">2018 - 2021</span>
+                        <p>My responsibility has been to supervise and manage the water treatment in an industrial plant, ensuring quality and safety. I implemented filtration and disinfection systems, optimized processes and complied with environmental regulations. I highlight the implementation of reverse osmosis, improvement in efficiency and reduction of operating costs. In addition, I contributed to chemical safety training and collaborated in the implementation of sustainable water recycling and reuse technologies.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">Nombre de Compañía</span>
+                        <span class="fecha">2005 - 2008</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis, cumque repellat, tempora recusandae aliquam nemo esse natus impedit, nostrum temporibus veritatis eaque soluta aperiam id repudiandae fugiat deserunt! Explicabo, veritatis?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/D1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/D2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/D3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/D4.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/D5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/D6.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <form action="https://formsubmit.co/jhonny10terrones@gmail.com" method="POST" >
+                <div class="fila">
+                    <!-- Formulario -->
+                    <div class="col">
+                        <input type="text" placeholder="Tú Nombre" name="Tú nombre" id="Tú nombre">
+                        <input type="text" placeholder="Número Movil" name="Número Movil" id="Número Movil">
+                        <input type="text" placeholder="Dirección de correo" name="email" id="email">
+                        <input type="text" placeholder="Tema" name="Tema" id="Tema">
+                        <textarea name="Mensaje" id="Mensje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                        <button>
+                         Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                        </button>
+                        <input type="hidden" name="_next" value="http://127.0.0.1:3002/">
+                        <input type="hidden" name="_captcha" value="false">
+                    </div>
+                    <!-- Mapa -->
+                    <div class="col">
+                        <img src="img/MPS2.jpeg" alt="">
+                        <div class="info">
+                            <ul>
+                                <li>
+                                    <i class="fa-solid fa-location-dot"></i>
+                                    Lima_Breña
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                    Llamanos: 947470756
+                                </li>
+                                <li>
+                                    <i class="fa-solid fa-envelope"></i>
+                                    Hotmail: JhonnyTG_30@hotmail.com
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    </section>
+
+    <!-- SECCION COLEGAS -->
+    <section id="colegas" class="colegas">
+        <div class="contenido-seccion">
+            <h2>COLEGAS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/director.png" alt="">
+                    <div class="overlay">
+                        <h3>Director de la Compania</h3>
+                        <p>Jhonny Terrones</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/subdirector2.png" alt="">
+                    <div class="overlay">
+                        <h3>Sub Director de la Compania</h3>
+                        <p>Renato Salazar</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Secretaria.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Secretaria de la Compania</h3>
+                        <p>Nahomi</p>
+                    </div>
+                </div>
+    </section>
+
+      <!-- footer -->
+      <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="efectos.js"></script>
+</body>
+</html>
